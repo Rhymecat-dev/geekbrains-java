@@ -2,8 +2,8 @@ package lesson_six;
 
 public class Cat extends Animal {
 
-    public Cat(float runDistance, float jumpDistance, float swimDistance) {
-        super(runDistance, jumpDistance, swimDistance);
+    public Cat(float maxRunDistance, float maxJumpDistance, float maxSwimDistance) {
+        super(maxRunDistance, maxJumpDistance, maxSwimDistance);
     }
 
     @Override

@@ -2,22 +2,22 @@ package lesson_six;
 
 public abstract class Animal {
 
-    protected float runDistance;
-    protected float jumpDistance;
-    protected float swimDistance;
+    protected float maxRunDistance;
+    protected float maxJumpDistance;
+    protected float maxSwimDistance;
 
-    public Animal(float runDistance, float jumpDistance, float swimDistance) {
-        this.runDistance = runDistance;
-        this.jumpDistance = jumpDistance;
-        this.swimDistance = swimDistance;
+    public Animal(float maxRunDistance, float maxJumpDistance, float maxSwimDistance) {
+        this.maxRunDistance = maxRunDistance;
+        this.maxJumpDistance = maxJumpDistance;
+        this.maxSwimDistance = maxSwimDistance;
     }
 
     protected boolean run(float distance) {
-        return distance <= runDistance;
+        return distance <= maxRunDistance;
     }
 
     protected boolean jump(float distance) {
-        return distance <= jumpDistance;
+        return distance <= maxJumpDistance;
     }
 
     public abstract boolean swim(float swimDistance);
