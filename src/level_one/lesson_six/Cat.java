@@ -1,4 +1,4 @@
-package lesson_six;
+package level_one.lesson_six;
 
 public class Cat extends Animal {
 

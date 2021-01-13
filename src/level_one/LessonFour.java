@@ -1,3 +1,5 @@
+package level_one;
+
 import java.util.Random;
 import java.util.Scanner;
 
